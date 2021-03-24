@@ -1,0 +1,8 @@
+From_Base64('A-Za-z0-9+/=',true)
+Remove_null_bytes()
+Regular_expression('User defined','[a-zA-Z0-9+/=]{30,}',true,true,false,false,false,false,'List matches')
+From_Base64('A-Za-z0-9+/=',true)
+Gunzip()
+Regular_expression('User defined','[a-zA-Z0-9+/=]{30,}',true,true,false,false,false,false,'List matches')
+From_Base64('A-Za-z0-9+/=',true)
+XOR({'option':'Decimal','string':'35'},'Standard',false)
