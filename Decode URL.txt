@@ -1,0 +1,3 @@
+URL_Decode()
+Find_/_Replace({'option':'Regex','string':'^'},'\\n',true,false,true,false)
+Syntax_highlighter('auto detect')
